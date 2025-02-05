@@ -1,0 +1,24 @@
+.doctor-portal {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #0077b6;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #f2f2f2;
+}

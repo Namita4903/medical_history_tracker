@@ -1,0 +1,55 @@
+/* Dashboard Styles */
+body {
+    background-color: #f1f8e9;
+}
+
+.dashboard {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 2rem;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    max-width: 300px;
+    background: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #4caf50;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: #388e3c;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card a:hover {
+    color: #2e7d32;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
